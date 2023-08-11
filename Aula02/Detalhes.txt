@@ -1,0 +1,21 @@
+-rw-r--r-- 1 Usuário 197121   92779 Jun 25 14:39 'Circuitos - Eletrocalhas - Maquinário (Máquinas).pdf'
+drwxr-xr-x 1 Usuário 197121       0 Aug  9 19:41 'Curso JavaScript SENAC'/
+
+
+primeiro caracter
+
+D = Pasta (Diretório)
+- = Arquivo
+
+Os seguintes são lidos em trios
+
+R = Read
+W = Write
+X = Execute
+- = Inacessível
+
+Primeiro trio = "Dono" do arquivo
+
+Segundo trio = Usuários do Grupo
+
+Terceiro trio = Outros usuários
