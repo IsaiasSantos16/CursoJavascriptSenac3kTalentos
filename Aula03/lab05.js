@@ -1,0 +1,12 @@
+console.log(`
+Usando 
+Crase
+É
+Possível
+Imprimir
+Texto
+Em
+Várias
+Linhas
+`
+)
