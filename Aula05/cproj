@@ -1,0 +1,15 @@
+#!/bin/bash
+printf "Criando Projeto $1 \n\n"
+
+mkdir $1
+printf "'$1' criado \n"
+mkdir $1/versoes
+printf "'$1/versoes' criado \n"
+mkdir $1/docs
+printf "'$1/docs' criado \n"
+touch $1/README.md
+printf "Arquivo criado em '$1/README.md' \n"
+touch $1/docs/index.html
+printf "Arquivo criado em '$1/docs/index.html' \n"
+
+printf "Projeto $1 Criado! \a"
