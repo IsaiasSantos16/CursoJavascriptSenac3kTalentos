@@ -1,15 +1,31 @@
 #!/bin/bash
+if [ -e "$1" ]; then
+printf "Já existe um projeto com esse nome!"
+else
+printf "******************************************\n"
+printf "******************************************\n"
+printf "******************************************\n"
+printf "******************************************\n"
+printf "******************************************\n"
+printf "******************************************\n"
 printf "Criando Projeto $1 \n\n"
 
 mkdir $1
-printf "'$1' criado \n"
+printf "Diretório criado em '$1'\n"
 mkdir $1/versoes
-printf "'$1/versoes' criado \n"
+printf "Diretório criado em '$1/versoes'\n"
 mkdir $1/docs
-printf "'$1/docs' criado \n"
+printf "Diretório criado em '$1/docs'\n"
 touch $1/README.md
 printf "Arquivo criado em '$1/README.md' \n"
 touch $1/docs/index.html
 printf "Arquivo criado em '$1/docs/index.html' \n"
-
-printf "Projeto $1 Criado! \a"
+cd $1
+printf "Instalando pacote 'readline-sync'\n"
+npm install readline-sync
+printf "\n"
+printf "******************************************\n"
+printf "Readline-sync instalado!\n"
+printf "Projeto $1 criado e pronto para uso! \a\n"
+printf "*****************************************\n"
+fi
